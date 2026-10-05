@@ -18,7 +18,7 @@ Two bundles ("plugins"). Install one or both.
 In Claude Code (terminal, VS Code or desktop), type:
 
 ```
-/plugin marketplace add MarcusPaxMachina/pax-machina
+/plugin marketplace add https://github.com/MarcusPaxMachina/pax-machina.git
 /plugin install pax-life@pax-machina
 /plugin install pax-studio@pax-machina
 ```
