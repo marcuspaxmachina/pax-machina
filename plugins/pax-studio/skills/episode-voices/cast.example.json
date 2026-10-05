@@ -1,0 +1,11 @@
+{
+  "model": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "allowed_tags": ["pause", "beat", "chuckles", "sighs", "scoffs", "laughs", "whispers",
+                   "dryly", "warmly", "calmly", "curious", "wryly", "suspicious", "mocking", "sarcastic"],
+  "voices": {
+    "host":      {"voice_id": "PASTE_HOST_VOICE_ID",      "settings": {"stability": 0.5, "similarity_boost": 0.75}},
+    "assistant": {"voice_id": "PASTE_ASSISTANT_VOICE_ID", "settings": {"stability": 0.6, "similarity_boost": 0.75}},
+    "doubter":   {"voice_id": "PASTE_DOUBTER_VOICE_ID",   "settings": {"stability": 0.3, "similarity_boost": 0.75, "style": 0.5}}
+  }
+}

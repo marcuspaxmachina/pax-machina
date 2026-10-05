@@ -1,0 +1,20 @@
+{
+  "name": "pax-machina",
+  "owner": { "name": "Marcus (Pax Machina)", "url": "https://paxmachina.blog" },
+  "metadata": {
+    "description": "Free Claude Code skills from the Pax Machina channel: run your life with Envoys, and make an AI-hosted YouTube channel.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pax-life",
+      "source": "./plugins/pax-life",
+      "description": "Run parts of your life with Claude Code Envoys: Envoy starter, Envoy Inbox, subscription audit, meeting notes, browser hand-off, attention alert."
+    },
+    {
+      "name": "pax-studio",
+      "source": "./plugins/pax-studio",
+      "description": "Make an AI-hosted YouTube channel with Claude Code as the producer: character art, voices, animation, editing, Shorts, publishing, YouTube updates and blog posts."
+    }
+  ]
+}

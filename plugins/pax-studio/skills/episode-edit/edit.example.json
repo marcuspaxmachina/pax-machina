@@ -1,0 +1,18 @@
+{
+  "name": "EP01",
+  "clips_dir": "video/ep01r",
+  "clips_json": "episodes/ep01/clips.json",
+  "clips": ["01-S1", "02-C1", "03-S2", "12-K1", {"id": "13-K9", "character": "doubter"}, "14-S9"],
+  "width": 1280, "height": 720, "fps": 30,
+  "transitions": {"dissolve": 0.25, "hardcut": 0.04, "punch_in": 1.1, "punch_in_y": 0.3},
+  "color": {"doubter": "eq=brightness=0.02:saturation=0.97"},
+  "screen_overlay": {
+    "on": ["host"],
+    "loop_source": "video/ep01/assistant-listening.mp4",
+    "crop": "880:620:200:0",
+    "corners": {"tl": [1014, 370], "tr": [1211, 369], "bl": [998, 501], "br": [1208, 509]},
+    "pingpong": true
+  },
+  "loudnorm": true,
+  "out_dir": "video/ep01"
+}

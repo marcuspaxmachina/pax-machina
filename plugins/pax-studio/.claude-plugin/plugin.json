@@ -1,0 +1,9 @@
+{
+  "name": "pax-studio",
+  "version": "1.0.0",
+  "description": "Make an AI-hosted YouTube channel with Claude Code as the producer: character art, voices, animation, editing, Shorts, publishing, YouTube updates and blog posts.",
+  "author": { "name": "Marcus (Pax Machina)", "url": "https://paxmachina.blog" },
+  "homepage": "https://paxmachina.blog",
+  "license": "MIT",
+  "keywords": ["youtube", "video", "elevenlabs", "hedra", "gemini", "ffmpeg", "wordpress"]
+}

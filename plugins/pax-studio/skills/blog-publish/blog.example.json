@@ -1,0 +1,33 @@
+{
+  "site": "https://paxmachina.blog",
+  "brand": {"primary": "#77372E", "accent": "#7F417D", "light": "#E9E7E7", "text": "#2B2421"},
+  "denylist_file": "config/privacy-denylist.txt",
+  "forbidden": ["[[", "DRAFT", "TODO"],
+  "not_live_suffix": " (coming soon, with the video)",
+  "out": "build/posts.json",
+  "posts": [
+    {
+      "key": "ep01", "id": 6, "live": true, "status": "publish",
+      "source": "blog/final/ep01.docx",
+      "title": "I handed my life to Claude Code, and it built this YouTube channel",
+      "strip_title_prefix": "I handed my life to Claude Code",
+      "video": "https://youtu.be/KQhgzy2wqe8",
+      "links": [
+        {"find": "How to get Claude Code (even if you have never opened a terminal)", "key": "start"},
+        {"find": "Why I send Envoys, not agents", "key": "envoys"}
+      ]
+    },
+    {
+      "key": "start", "id": 10, "live": true, "status": "publish",
+      "source": "blog/final/getting-started.md",
+      "title": "How to get Claude Code (even if you have never opened a terminal)",
+      "links": [{"find": "Episode 1's guide", "key": "ep01"}]
+    },
+    {
+      "key": "envoys", "id": 12, "live": true, "status": "publish",
+      "source": "blog/final/envoys-vs-agents.docx",
+      "title": "Why I send Envoys, not agents",
+      "links": [{"find": "Our Start Here guide", "key": "start"}]
+    }
+  ]
+}

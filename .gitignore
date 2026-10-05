@@ -1,0 +1,13 @@
+# Never commit keys, private configs or media
+.env
+*.env
+config/privacy-denylist.txt
+**/config/*.local.*
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.heic
+Recordings/

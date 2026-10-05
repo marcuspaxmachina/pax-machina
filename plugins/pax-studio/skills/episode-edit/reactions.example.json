@@ -1,0 +1,19 @@
+{
+  "src_dir": "video/ep01",
+  "out_dir": "video/ep01r",
+  "width": 1280, "height": 720, "fps": 30,
+  "regions": {
+    "bust": {"box": [170, 10, 180, 320], "ellipse": [0.12, 0.10, 0.88, 0.72], "feather": 9}
+  },
+  "reactions": [
+    {"clip": "01-S1", "region": "bust", "video": "video/ep01/reactions/bust-nod.mp4", "start": 10.6, "length": 2.6},
+    {"clip": "10-S7", "region": "bust", "video": "video/ep01/reactions/bust-doubletake.mp4", "start": 22.6},
+    {"clip": "14-S9", "region": "bust", "video": "video/ep01/reactions/bust-sideeye.mp4", "start": 0.0}
+  ],
+  "flash_gags": [
+    {"out": "13-K9", "base": "video/ep01/reactions/doubter-turn.mp4", "insert": "video/ep01/assistant-listening.mp4",
+     "insert_crop": "520:460:380:20", "box": [1020, 267, 187, 165],
+     "flashes": [[0.35, 0.65], [0.80, 0.98], [1.10, 1.32]], "duration": 7.0}
+  ],
+  "copy_files": ["video/ep01/assistant-listening.mp4"]
+}

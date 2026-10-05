@@ -1,0 +1,13 @@
+{
+  "clips_dir": "video/ep01/edit",
+  "out_dir": "video/ep01/shorts",
+  "font": "",
+  "brand": "PAX MACHINA",
+  "footer": "FULL EPISODE ON THE CHANNEL",
+  "colors": {"title": "white", "brand": "0xffd666", "footer": "white", "border": "0x2b2421"},
+  "shorts": {
+    "short-01-named-after": {"clips": ["03-S2", "04-C2", "05-S3"], "hook": ["NAMED AFTER", "CLAUDIUS?"]},
+    "short-02-screen-prank": {"clips": ["12-K1", "13-K9", "14-S9"], "hook": ["SHE TROLLED HIM", "ON DIAL-UP"]},
+    "short-03-try-this": {"clips": ["17-S11"], "hook": ["FIND EVERY", "FORGOTTEN", "SUBSCRIPTION"], "max_seconds": 58}
+  }
+}

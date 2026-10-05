@@ -1,0 +1,9 @@
+{
+  "name": "pax-life",
+  "version": "1.0.0",
+  "description": "Run parts of your life with Claude Code Envoys: Envoy starter, Envoy Inbox, subscription audit, meeting notes, browser hand-off, attention alert.",
+  "author": { "name": "Marcus (Pax Machina)", "url": "https://paxmachina.blog" },
+  "homepage": "https://paxmachina.blog",
+  "license": "MIT",
+  "keywords": ["envoy", "life", "productivity", "meetings", "subscriptions"]
+}
